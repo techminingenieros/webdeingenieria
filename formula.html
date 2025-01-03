@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHMIN INGENIEROS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo nuevo 1.png">
+</head>
+<body>
+    <header>
+        <div class="title-container">
+            <img src="img/logo nuevo blanco 1.png" alt="Logo" class="logo">
+            <h1 class="main-title shadow">EMPRESA DE INGENIERÍA TECHMIN</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="gallery.html">Galería</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="formula.html">Formulario</a></li>
+                <li><a href="ubi.html">Úbicanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Innovación en Instalaciones Eléctricas, Reparación de Maquinarias y Extracción de Minerales</h2>
+        <p>Soluciones inteligentes para el futuro industrial</p>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <div class="servicio">
+            <h3>Instalaciones Eléctricas</h3>
+            <p>Diseño, instalación y mantenimiento de sistemas eléctricos industriales.</p>
+        </div>
+        <div class="servicio">
+            <h3>Reparación de Maquinarias</h3>
+            <p>Reparación, mantenimiento y optimización de maquinaria industrial.</p>
+        </div>
+        <div class="servicio">
+            <h3>Extracción de Minerales</h3>
+            <p>Extracción y procesamiento de minerales de hierro con tecnología avanzada.</p>
+        </div>
+    </section>
+
+    <main>
+        <section class="fade-in">
+            <h6 class="shadow">Formulario de Contacto</h6>
+            <p class="parra-formu">Si puedes llenas este formulario, para así darte una mejor atención y mantenerte siempre activo a nuestras actualizaciones</p>
+            
+            <form action="https://formspree.io/f/xeoqklqa"method="POST">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="country">País:</label>
+                    <input type="country" id="country" name="country" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy;Todos los derechos reservados.</p>
+        <p>&copy;Terminos y Condiciones</p>
+        <p>&copy; Politica de Privacidad</p>
+        <p>&copy; 2024 TECHMIN.</p>
+    </footer>
+</body>
+</html>
